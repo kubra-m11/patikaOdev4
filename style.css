@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* header section start */
+header .Baslik{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+header >* {
+    text-align: center;
+    color: white;
+}
+header  a {
+    color: rgb(243, 23, 23);
+    margin-left: 1rem;
+}
+/* header section end */
+
+/* conettn section start */
+
+#content {
+    margin-top: 7rem;
+    color: white;
+    text-align: center;
+}
+
+.tarif1 .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content p{
+    padding: 1rem;
+}
+.content p span{
+    color: red;
+}
+
+.content2{
+    background-color: black;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+.malzeme h4 {
+ color: rgb(205, 50, 50);
+ font-weight: 800;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+.malzeme ul{
+    padding: 1rem;
+}
+
+
+#content .content3{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;  
+}
+.content3 .hazırlanısı {
+    text-align: start;
+    padding-left: 19rem;
+}
+.content3 .hazırlanısı ol{
+    padding: 1rem;
+}
+.content3 h4{
+    color: rgb(205, 50, 50);
+    font-weight: 800;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
